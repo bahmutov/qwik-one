@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "App with Routing built-in ready to create your app",
+  "name": "qwik-one",
+  "description": "Playing and testing a Qwik app",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
