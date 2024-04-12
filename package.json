@@ -24,7 +24,9 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "e2e": "cypress open",
+    "dev.e2e": "start-test dev http://localhost:5173 e2e"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.5.2",
@@ -33,9 +35,11 @@
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
+    "cypress": "^13.7.3",
     "eslint": "^8.57.0",
     "eslint-plugin-qwik": "^1.5.2",
     "prettier": "^3.2.5",
+    "start-server-and-test": "^2.0.3",
     "typescript": "5.3.3",
     "undici": "*",
     "vite": "^5.1.6",
